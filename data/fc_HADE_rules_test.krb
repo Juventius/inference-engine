@@ -1,0 +1,19 @@
+tertarik_dengan_materi
+    foreach
+        facts.membuka($user, $materi)
+    assert
+	    facts.tertarik($user, $materi)
+
+memahami_materi
+    foreach
+        facts.selesai_kurang_dari_30_menit($user, $materi)
+        facts.nilai_di_atas_70($user, $materi)
+    assert
+	    facts.memahami($user, $materi)
+
+selesai_tepat_waktu
+    foreach
+        facts.membuka($user, $materi)
+        facts.memahami($user, $materi)
+    assert
+        facts.selesai_tepat_waktu($user, $materi)

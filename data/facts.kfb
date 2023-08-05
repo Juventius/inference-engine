@@ -1,0 +1,7 @@
+membuka(juven, "manajemen agile")
+membuka(gloria, "manajemen agile")
+membuka(wesli, "manajemen agile")
+selesai_kurang_dari_30_menit(juven, "manajemen agile")
+nilai_di_atas_70(juven, "manajemen agile")
+selesai_kurang_dari_30_menit(wesli, "manajemen agile")
+nilai_di_atas_70(wesli, "manajemen agile")
